@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+﻿.chessboard-container > div {
+    max-width: 40%; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chessboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*.chessboard-wrapper {
+    margin-right: 20px;*/ /* Spațiu între tabla de șah și piesele capturate */
+/*}
+
+.captured-pieces {
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.captured-piece {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}*/
